@@ -20,6 +20,8 @@ git clone https://github.com/ldybecklee/wepy-zanui-demo.git
 ### 3. 克隆分支
 ```bash
 cd wepy-zanui-demo
+```
+```bash
 git checkout -b ldybecklee-patch-1 origin/ldybecklee-patch-1
 ```
 
