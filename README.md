@@ -15,7 +15,7 @@ npm install -g wepy-cli
 
 ### 2. 下载源代码
 ```bash
-git clone https://github.com/brucx/wepy-zanui-demo.git
+git clone https://github.com/ldybecklee/wepy-zanui-demo.git
 ```
 
 ### 3. 安装开发依赖
