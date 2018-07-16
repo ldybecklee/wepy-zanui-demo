@@ -17,24 +17,28 @@ npm install -g wepy-cli
 ```bash
 git clone https://github.com/ldybecklee/wepy-zanui-demo.git
 ```
-
-### 3. 安装开发依赖
+### 3. 克隆分支
 ```bash
 cd wepy-zanui-demo
+git checkout -b ldybecklee-patch-1 origin/ldybecklee-patch-1
+```
+
+### 4. 安装开发依赖
+```bash
 npm install
 ```
 
-### 4. 美化源代码
+### 5. 美化源代码
 ```bash
 npm run beautify
 ```
 
-### 5. 编译源代码
+### 6. 编译源代码
 ```bash
 npm run build
 ```
 
-### 6.导入至开发者工具
+### 7.导入至开发者工具
 
 编译完成后会生成`dist`目录，开发者工具本地开发目录指向`dist`目录。
 
