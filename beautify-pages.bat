@@ -1,13 +1,10 @@
 @echo off
-echo start beautify wpy page files
-set input=src/pages
-
-html-beautify src/app.wpy -r
-
-cd %input%
-
+echo -------start beautify wpy page files------
+cd src/pages
 for  %%a in (*) do (
-    html-beautify %%a -r
+call html-beautify %%a -r
 )
-
-cd ../..
+cd ..
+call html-beautify app.wpy -r
+echo -------complete beautify------------------
+cd ..
