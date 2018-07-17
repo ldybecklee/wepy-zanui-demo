@@ -1,5 +1,7 @@
-<style lang="less">
-
+<style lang="css">
+  @import '/zanui/panel.wxss';
+  @import '/zanui/cell.wxss';
+  @import '/zanui/label.wxss';
 </style>
 
 <template>
